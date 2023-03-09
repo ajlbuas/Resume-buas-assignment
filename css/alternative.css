@@ -1,4 +1,4 @@
-@import url(https://api.fontshare.com/css?f[]=telma@900&f[]=erode@1&display=swap);
+@import url(https://api.fontshare.com/css?f[]=telma@900&f[]=erode@1&display=swap); 
 
 /* Starting with a CSS reset */
 
@@ -22,9 +22,10 @@ html {
 }
 
 body {
-	font-family: "Erode", serif;
+	font-family: 'ABeeZee', sans-serif;
+font-family: 'Fredoka One;
 	background-color: #ffffff;
-	color: #000020;
+	color: #2A2627;
 	font-size: clamp(16px, 1.5vw, 20px);
 	line-height: 1.1;
 	height: 100%;
@@ -69,12 +70,12 @@ footer {
 /* Styles for the header (photo, tagline, etc.) */
 
 .resume-header {
-	width: 16%;
+	width: 20%;
 	max-width: 220px;
 	min-width: 80px;
 	display: flex;
 	flex-flow: column;
-	background-color: #301010;
+	background-color: #2A2627;
 	color: #f0f0f0;
 	height: 100%;
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, .1), transparent);
@@ -104,7 +105,7 @@ footer {
 h1 {
 	font-size: clamp(28px, 3vh, 40px);
 	font-weight: 900;
-	font-family:  Telma;
+	font-family: 'Fredoka One', cursive;
 	writing-mode: vertical-lr;
 	transform:  rotate(180deg);
 }
@@ -121,7 +122,7 @@ h1 {
 
 .resume-main {
 	flex: 1 1 60%;
-	background-color: #f0f0f0;
+	background-color: #C8D7E5;
 }
 
 .biography-item {
@@ -171,7 +172,7 @@ h2 {
 	writing-mode: vertical-lr;
 	font-size: clamp(20px, 2.5vh, 36px);
 	font-weight: 900;
-	font-family:  Telma;
+	font-family: 'Fredoka One', cursive;
 }
 
 .resume-main h2 {
@@ -187,7 +188,7 @@ h2 {
 
 .resume-aside {
 	flex: 1 1 250px;
-	background-color: #282840;
+	background-color: #4c5b6e;
 	color: #f0f0f0;
 	display: flex;
 	flex-flow: column;
@@ -230,11 +231,15 @@ h2 {
 }
 
 .language-progress {
-	background-color: #ffff00;
+	background-color: #ffffff;
 }
 
 .language-level h6 {
 	width: 100%;
+}
+
+.w-15{
+	width: 15%;
 }
 
 .w-25 {
